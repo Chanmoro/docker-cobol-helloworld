@@ -10,9 +10,9 @@ $ docker build -t cobol .
 ```
 
 ## Usage
-1 . Run OpenCOBOL docker environment with mount current dir to /app.
+1 . Run OpenCOBOL docker environment.
 ```
-$ docker run -it --rm ${PWD}/.:/app -w /app cobol bash
+$ docker run -it --rm -w /app cobol bash
 ```
 
 2 . Compile COBOL source code.
