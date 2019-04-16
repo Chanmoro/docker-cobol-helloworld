@@ -17,12 +17,12 @@ $ docker run -it --rm ${PWD}/.:/app -w /app cobol bash
 
 2 . Compile COBOL source code.
 ```
-$ cobc -x -o hello_world ./hello_world.cbl
+(docker)$ cobc -x -o hello_world ./hello_world.cbl
 ```
 
 3 . Run compiled hello_world binary.
 ```
-$ ./hello_world 
+(docker)$ ./hello_world 
 Hello, World!
 ```
 
